@@ -1,6 +1,6 @@
 ---
-title: "👶 Birth of Jermainecheng.com"
-summary: "A rundown on how / why jermainecheng.com was built."
+title: "👶 Birth of Michael-martinez.me"
+summary: "A rundown on how / why Michael-martinez.me was built."
 date: "2020-06-14"
 ---
 

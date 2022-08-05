@@ -70,13 +70,12 @@ const Index = () => {
             as="h1"
             size="2xl"
           >
-            👋 Hello, I’m Jermaine!
+            👋 Hello, I’m Michael!
           </Heading>
           <Text mb={4} color={secondaryTextColor[colorMode]}>
-            I'm a Singaporean maker over paying rent in San Francisco,
-            California 🇸🇬🇺🇸. In my day job, I mostly run up and down the
-            software stack as a fullstack engineer (
-            <i>with a focus on frontend engineering</i>).
+            I'm a Singaporean maker over paying rent in Laguna Hills, California
+            🇸🇬🇺🇸. In my day job, I mostly run up and down the software stack as
+            a fullstack engineer (<i>with a focus on frontend engineering</i>).
           </Text>
           <Text mb={4} color={secondaryTextColor[colorMode]}>
             I enjoy feature development and working on products that matter! Now
@@ -99,7 +98,7 @@ const Index = () => {
             Feel free to{' '}
             <Link
               color={'blue.400'}
-              href="mailto:jermainezhimin@gmail.com"
+              href="mailto:solomon226@hotmail.com"
               title="Email"
               isExternal
             >
@@ -108,65 +107,65 @@ const Index = () => {
             ; I enjoy chatting with folk.
           </Text>
         </Flex>
-        <Box w="100%">
-          <Divider />
-          <Flex w="100%" justifyContent="space-evenly" alignItems="center">
-            <Icon
-              aria-label={'periscopedata'}
-              name={'periscopedata'}
-              color={purpleColor[colorMode]}
-              size={['50px', '50px', '60px']}
-              ml={2}
-              mr={4}
-            />
-            <Icon
-              aria-label={'apple'}
-              name={'apple'}
-              color={grayColor[colorMode]}
-              size={['50px', '50px', '60px']}
-              ml={2}
-              mr={4}
-            />
-            <Icon
-              aria-label={'sisense'}
-              name={'sisense'}
-              size={['50px', '50px', '60px']}
-              ml={2}
-              mr={4}
-            />
-            <Icon
-              aria-label={'crowdai'}
-              name={'crowdai'}
-              size={['75px', '75px', '100px']}
-              ml={2}
-              mr={4}
-            />
-          </Flex>
-          <Divider />
-        </Box>
-        <Flex
-          flexDirection="column"
-          justifyContent="flex-start"
-          alignItems="flex-start"
-          maxWidth="700px"
-        >
-          <Heading
-            color={yellowTextColor[colorMode]}
-            letterSpacing="tight"
-            mb={4}
-            size="xl"
-            fontWeight={700}
-          >
-            Project
-          </Heading>
-          <ProjectCard
-            title="Objective: Object Collective Tarot Deck"
-            description="An illustration project to reimagine the Rider-Waite tarot deck as relatable items/animals in the 21st century"
-            href="https://www.kickstarter.com/projects/1988162704/objective-object-collective-tarot-deck"
-            icon="objective"
-            size="56px"
-          />
-        </Flex>
+        {/*<Box w="100%">*/}
+        {/*  <Divider />*/}
+        {/*  <Flex w="100%" justifyContent="space-evenly" alignItems="center">*/}
+        {/*    <Icon*/}
+        {/*      aria-label={'periscopedata'}*/}
+        {/*      name={'periscopedata'}*/}
+        {/*      color={purpleColor[colorMode]}*/}
+        {/*      size={['50px', '50px', '60px']}*/}
+        {/*      ml={2}*/}
+        {/*      mr={4}*/}
+        {/*    />*/}
+        {/*    <Icon*/}
+        {/*      aria-label={'apple'}*/}
+        {/*      name={'apple'}*/}
+        {/*      color={grayColor[colorMode]}*/}
+        {/*      size={['50px', '50px', '60px']}*/}
+        {/*      ml={2}*/}
+        {/*      mr={4}*/}
+        {/*    />*/}
+        {/*    <Icon*/}
+        {/*      aria-label={'sisense'}*/}
+        {/*      name={'sisense'}*/}
+        {/*      size={['50px', '50px', '60px']}*/}
+        {/*      ml={2}*/}
+        {/*      mr={4}*/}
+        {/*    />*/}
+        {/*    <Icon*/}
+        {/*      aria-label={'crowdai'}*/}
+        {/*      name={'crowdai'}*/}
+        {/*      size={['75px', '75px', '100px']}*/}
+        {/*      ml={2}*/}
+        {/*      mr={4}*/}
+        {/*    />*/}
+        {/*  </Flex>*/}
+        {/*  <Divider />*/}
+        {/*</Box>*/}
+        {/*<Flex*/}
+        {/*  flexDirection="column"*/}
+        {/*  justifyContent="flex-start"*/}
+        {/*  alignItems="flex-start"*/}
+        {/*  maxWidth="700px"*/}
+        {/*>*/}
+        {/*  <Heading*/}
+        {/*    color={yellowTextColor[colorMode]}*/}
+        {/*    letterSpacing="tight"*/}
+        {/*    mb={4}*/}
+        {/*    size="xl"*/}
+        {/*    fontWeight={700}*/}
+        {/*  >*/}
+        {/*    Project*/}
+        {/*  </Heading>*/}
+        {/*  <ProjectCard*/}
+        {/*    title="Objective: Object Collective Tarot Deck"*/}
+        {/*    description="An illustration project to reimagine the Rider-Waite tarot deck as relatable items/animals in the 21st century"*/}
+        {/*    href="https://www.kickstarter.com/projects/1988162704/objective-object-collective-tarot-deck"*/}
+        {/*    icon="objective"*/}
+        {/*    size="56px"*/}
+        {/*  />*/}
+        {/*</Flex>*/}
 
         <Flex
           flexDirection="column"
@@ -186,45 +185,60 @@ const Index = () => {
           </Heading>
           <Timeline
             activitiesByYear={{
-              '2019': [
+              '2022': [
                 {
-                  title: 'Joined CrowdAI',
+                  title: 'Joined Gelato Network',
                   description:
-                    "With a leap of faith, I jumped into a seed stage startup to flex my engineering muscle; bringing frontend engineering to the table. Here I got to build the company's vision of it's product from the ground up.",
-                },
-              ],
-              '2018': [
-                {
-                  title: 'Joined Sisense',
-                  description:
-                    'In May 2019, Periscope Data signed a definitive agreement to merge with Sisense. Having front row seats to a company merger is SCAR-Y, I got to build the integrated product!',
+                    "With a leap of faith, I jumped into a seed stage startup to flex my engineering muscle; bringing a tool to build automation into dapps to the table. Here I got to build the company's vision of it's product..",
                   tags: {
                     warehouse_tab:
-                      'https://www.youtube.com/watch?v=s_4lK-MXhsk',
+                      'https://www.youtube.com/channel/UCBk9gXYKOoLHTQxpcnZkBwQ',
+                  },
+                },
+              ],
+              '2021': [
+                {
+                  title: 'Joined Onessus',
+                  description:
+                    'In the end of 2021, I jumped into a dApp Development Studio; brought full-stack engineering to the table. Here I got to transfer novel concept to reality.',
+                  tags: {
+                    warehouse_tab:
+                      'https://www.youtube.com/channel/UCyZaZqRgYFdrgVFoB-qT-ag',
                   },
                 },
                 {
-                  title: 'Joined Periscope Data',
+                  title: 'Joined Wallfair.io',
                   description:
-                    'One of my best experiences in the industry! Also, I got to build really cool technology to run python in the web.',
+                    'In Sep 2021, Took my second frontend engineering to a decentralized social entertainment industry: Here I got to build the frontend pages of social events.',
                   tags: {
-                    custom_modules:
-                      'https://dtdocs.sisense.com/article/custom-modules',
-                    r_and_python_integration:
-                      'https://dtdocs.sisense.com/article/r-and-python',
-                    summary_stats:
-                      'https://dtdocs.sisense.com/article/statistics',
+                    warehouse_tab:
+                      'https://www.youtube.com/channel/UCqBlRN4MA8N2-SNvM5V52Eg',
                   },
+                },
+                {
+                  title: 'Joined KodaDot',
+                  description:
+                    'Took my first frontend engineering to blockchain space; Here I got to develop the frontend of interoperable NFT marketplace on Kusama & Polkadot.',
+                  tags: {
+                    warehouse_tab:
+                      'https://www.youtube.com/channel/UCEULduld5NrqOL49k1KVjoA',
+                  },
+                },
+              ],
+              '2020': [
+                {
+                  title: 'Joined Snikpic',
+                  description: 'My career landed on more variety fields',
+                },
+              ],
+              '2019': [
+                {
+                  title: 'Joined Demoreel.com',
+                  description:
+                    'I started freelancing and experienced many sources and libraries.',
                 },
               ],
               '2016': [
-                {
-                  title: 'Joined Apple',
-                  description:
-                    'My first job out of college working in the Content Delivery Network(CDN) team. Learning to work in a software team was rough!',
-                },
-              ],
-              '2015': [
                 {
                   title: 'Switch to Computer Engineering Major',
                   description:
@@ -232,16 +246,6 @@ const Index = () => {
                 },
               ],
               '2014': [
-                {
-                  title: 'Join Game Innovation Program',
-                  description:
-                    'My first interaction with creating games as a game designer intern. It was alot of work and butting of heads before producing Skyward.',
-                  tags: {
-                    skyward: 'https://www.youtube.com/watch?v=s_4lK-MXhsk',
-                  },
-                },
-              ],
-              '2013': [
                 {
                   title: 'Took my first CS elective',
                   description:

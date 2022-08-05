@@ -8,12 +8,12 @@ import {
   Flex,
   Box,
   IconButton,
-  Icon,
+  Heading,
 } from '@chakra-ui/core'
 import Footer from './footer'
 
 const site = 'http://www.jermainecheng.com'
-const siteTitle = "Jermaine's Blog"
+const siteTitle = "Michael's Blog"
 const siteDescription =
   'Read articles about the magical field of software engineering'
 const sitePreview = '/images/preview.png'
@@ -25,7 +25,7 @@ const StickyNav = styled(Flex)`
   backdrop-filter: saturate(180%) blur(20px);
   transition: background-color 0.1 ease-in-out;
 `
-const MainIcon = styled(Icon)`
+const MainLogo = styled(Heading)`
   transition: color 0.25s;
   position: sticky;
   z-index: 10;
@@ -93,14 +93,13 @@ const Layout = ({ children }) => {
         mx={[8, 8, 'auto']}
       >
         <NextLink href="/" passHref>
-          <MainIcon
-            aria-label="Jermaine"
-            name="jermaine"
-            size="40px"
+          <MainLogo
             color={primarytextColor[colorMode]}
-            variant="ghost"
+            fontSize="5xl"
             cursor="pointer"
-          />
+          >
+            M
+          </MainLogo>
         </NextLink>
         <Box ml="auto">
           <NextLink href="/" passHref>

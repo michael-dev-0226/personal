@@ -25,7 +25,7 @@ const Footer = () => {
     <Flex flexDirection="column">
       <Flex justify="center" mb={4}>
         <Text>
-          Made with ❤️ by Jermaine; Inspired by{' '}
+          Made with ❤️ by Michael; Inspired by{' '}
           <Link
             color={'blue.400'}
             href="https://leerob.io"
@@ -51,7 +51,7 @@ const Footer = () => {
           />
         </Link>
         <Link
-          href="https://github.com/jermainezhimin"
+          href="https://github.com/michael-dev-0226"
           title="GitHub"
           isExternal
         >
@@ -64,7 +64,7 @@ const Footer = () => {
           />
         </Link>
         <Link
-          href="https://www.linkedin.com/in/jermaine-cheng/"
+          href="https://www.linkedin.com/in/michael-martinez-b3b986237/"
           title="LinkedIn"
           isExternal
         >
@@ -76,7 +76,7 @@ const Footer = () => {
             variant="ghost"
           />
         </Link>
-        <Link href="mailto:jermainezhimin@gmail.com" title="Email" isExternal>
+        <Link href="mailto:solomon226@hotmail.com" title="Email" isExternal>
           <IconButton
             aria-label="Email"
             icon="mail"
