@@ -100,12 +100,12 @@ export default function Post({ postData }) {
             <Flex align="center">
               <Avatar
                 size="xs"
-                name="Jermaine Cheng"
+                name="Michael Martinez"
                 src="/images/profile.jpeg"
                 mr={2}
               />
               <Text fontSize="sm" color={textColor[colorMode]}>
-                {'Jermaine Cheng / '}
+                {'Michael Martinez / '}
                 <Date dateString={postData.date} />
               </Text>
             </Flex>
