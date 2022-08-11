@@ -1,6 +1,6 @@
-# jermainecheng.com 👶
+# michael-martinez.me 👶
 
-Source code of my blog hosted at jermainecheng.com. It's heavily influenced and inspired by [Lee Robinson's Blog](https://github.com/leerob/leerob.io).
+Source code of my blog hosted at michael-martinez.me. It's heavily influenced and inspired by [Lee Robinson's Blog](https://github.com/leerob/leerob.io).
 
 ## Build With 
 - [ESlint](https://eslint.org) / [Prettier](https://prettier.io) - Eliminate code smells and styling errors

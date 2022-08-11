@@ -12,7 +12,7 @@ import {
 } from '@chakra-ui/core'
 import Footer from './footer'
 
-const site = 'http://www.jermainecheng.com'
+const site = 'http://www.michael-martinez.me'
 const siteTitle = "Michael's Blog"
 const siteDescription =
   'Read articles about the magical field of software engineering'

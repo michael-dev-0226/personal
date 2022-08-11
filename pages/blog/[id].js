@@ -22,7 +22,7 @@ const editUrl = (slug) =>
   `https://github.com/michael-dev-0226/personal/edit/main/blogs/${slug}.md`
 const discussUrl = (slug) =>
   `https://mobile.twitter.com/intent/tweet?text=${encodeURIComponent(
-    `https://jermainecheng.com/blog/${slug}`
+    `https://michael-martinez.me/blog/${slug}`
   )}`
 
 export default function Post({ postData }) {
