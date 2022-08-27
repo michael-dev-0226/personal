@@ -58,7 +58,7 @@ const Layout = ({ children }) => {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <title>{siteTitle}</title>
-        <meta name="title" content="Jermaine's Blog" />
+        <meta name="title" content="Michael's Blog" />
         <meta
           name="description"
           content="Read articles about the magical field of software engineering"
