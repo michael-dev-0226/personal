@@ -24,17 +24,7 @@ const Footer = () => {
   return (
     <Flex flexDirection="column">
       <Flex justify="center" mb={4}>
-        <Text>
-          Made with ❤️ by Michael; Inspired by{' '}
-          <Link
-            color={'blue.400'}
-            href="https://leerob.io"
-            title="Lee Robinson's Blog"
-            isExternal
-          >
-            Lee Robinson
-          </Link>
-        </Text>
+        <Text>Made with ❤️ by Yuki</Text>
       </Flex>
       <Flex justify="center" mb={4}>
         <Link

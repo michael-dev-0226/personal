@@ -18,7 +18,8 @@ import BlogPost from '../../components/blogPost'
 export async function getStaticProps() {
   // Call an external API endpoint to get posts.
   // You can use any data fetching library
-  const allBlogsData = getSortedBlogsData()
+  // const allBlogsData = getSortedBlogsData()
+  const allBlogsData = []
 
   // By returning { props: posts }, the Blog component
   // will receive `posts` as a prop at build time
@@ -60,14 +61,15 @@ const Blog = ({ allBlogsData }) => {
           alignItems="flex-start"
           m="0 auto 4rem auto"
           width="100%"
-          maxWidth="700px"
+          maxWidth="800px"
         >
           <Flex
             spacing={8}
             flexDirection="column"
             justifyContent="flex-start"
             alignItems="flex-start"
-            maxWidth="700px"
+            maxWidth="800px"
+            w="100%"
           >
             <Heading
               color={redTextColor[colorMode]}
@@ -78,7 +80,7 @@ const Blog = ({ allBlogsData }) => {
             >
               ✍🏻 Blog
             </Heading>
-            <Text mb={4} color={secondaryTextColor[colorMode]}>
+            {/* <Text mb={4} color={secondaryTextColor[colorMode]}>
               I'm planning to keep this page updated in the next few days! This
               blog revolves mostly around the magical field of software
               engineering (
@@ -88,14 +90,14 @@ const Blog = ({ allBlogsData }) => {
               This is a time capsule for me to look back at some of the
               highlights in my life. Subscribe to the newsletter if you enjoy my
               content.
-            </Text>
+            </Text> */}
             <Subscribe />
           </Flex>
           <Flex
             flexDirection="column"
             justifyContent="flex-start"
             alignItems="flex-start"
-            maxWidth="700px"
+            maxWidth="800px"
             width="100%"
             mt={8}
           >

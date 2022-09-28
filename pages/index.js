@@ -13,7 +13,6 @@ import {
 
 import Timeline from '../components/timeline'
 import Layout from '../components/layout'
-import ProjectCard from '../components/projectCard'
 
 const Index = () => {
   const { colorMode } = useColorMode()
@@ -33,10 +32,6 @@ const Index = () => {
     light: 'black',
     dark: 'green.100',
   }
-  // const blueTextColor = {
-  //   light: 'black',
-  //   dark: 'blue.200',
-  // }
 
   const purpleColor = {
     light: 'purple.600',
@@ -54,14 +49,14 @@ const Index = () => {
         justifyContent="center"
         alignItems="flex-start"
         m="0 auto 4rem auto"
-        maxWidth="700px"
+        maxWidth="800px"
         w="100%"
       >
         <Flex
           flexDirection="column"
           justifyContent="flex-start"
           alignItems="flex-start"
-          maxWidth="700px"
+          maxWidth="800px"
         >
           <Heading
             color={redTextColor[colorMode]}
@@ -70,18 +65,13 @@ const Index = () => {
             as="h1"
             size="2xl"
           >
-            👋 Hello, I’m Michael!
+            👋 Hello, I’m Yuki!
           </Heading>
           <Text mb={4} color={secondaryTextColor[colorMode]}>
-            I'm a Singaporean maker over paying rent in Laguna Hills, California
-            🇸🇬🇺🇸. In my day job, I mostly run up and down the software stack as
-            a fullstack engineer (<i>with a focus on frontend engineering</i>).
-          </Text>
-          <Text mb={4} color={secondaryTextColor[colorMode]}>
             I enjoy feature development and working on products that matter! Now
-            that I've been working for a couple of years, I decided to create
-            this blog to jot down things I wish I knew while working in this
-            industry:
+            that I've been curious about the blockchain technology and traing my
+            skills for future instustry. I wish I knew while working in this
+            industry.
             <Box as="ul" pt={2} pl={4} ml={2}>
               <Box as="li" pb={1}>
                 Soft skills
@@ -107,71 +97,11 @@ const Index = () => {
             ; I enjoy chatting with folk.
           </Text>
         </Flex>
-        {/*<Box w="100%">*/}
-        {/*  <Divider />*/}
-        {/*  <Flex w="100%" justifyContent="space-evenly" alignItems="center">*/}
-        {/*    <Icon*/}
-        {/*      aria-label={'periscopedata'}*/}
-        {/*      name={'periscopedata'}*/}
-        {/*      color={purpleColor[colorMode]}*/}
-        {/*      size={['50px', '50px', '60px']}*/}
-        {/*      ml={2}*/}
-        {/*      mr={4}*/}
-        {/*    />*/}
-        {/*    <Icon*/}
-        {/*      aria-label={'apple'}*/}
-        {/*      name={'apple'}*/}
-        {/*      color={grayColor[colorMode]}*/}
-        {/*      size={['50px', '50px', '60px']}*/}
-        {/*      ml={2}*/}
-        {/*      mr={4}*/}
-        {/*    />*/}
-        {/*    <Icon*/}
-        {/*      aria-label={'sisense'}*/}
-        {/*      name={'sisense'}*/}
-        {/*      size={['50px', '50px', '60px']}*/}
-        {/*      ml={2}*/}
-        {/*      mr={4}*/}
-        {/*    />*/}
-        {/*    <Icon*/}
-        {/*      aria-label={'crowdai'}*/}
-        {/*      name={'crowdai'}*/}
-        {/*      size={['75px', '75px', '100px']}*/}
-        {/*      ml={2}*/}
-        {/*      mr={4}*/}
-        {/*    />*/}
-        {/*  </Flex>*/}
-        {/*  <Divider />*/}
-        {/*</Box>*/}
-        {/*<Flex*/}
-        {/*  flexDirection="column"*/}
-        {/*  justifyContent="flex-start"*/}
-        {/*  alignItems="flex-start"*/}
-        {/*  maxWidth="700px"*/}
-        {/*>*/}
-        {/*  <Heading*/}
-        {/*    color={yellowTextColor[colorMode]}*/}
-        {/*    letterSpacing="tight"*/}
-        {/*    mb={4}*/}
-        {/*    size="xl"*/}
-        {/*    fontWeight={700}*/}
-        {/*  >*/}
-        {/*    Project*/}
-        {/*  </Heading>*/}
-        {/*  <ProjectCard*/}
-        {/*    title="Objective: Object Collective Tarot Deck"*/}
-        {/*    description="An illustration project to reimagine the Rider-Waite tarot deck as relatable items/animals in the 21st century"*/}
-        {/*    href="https://www.kickstarter.com/projects/1988162704/objective-object-collective-tarot-deck"*/}
-        {/*    icon="objective"*/}
-        {/*    size="56px"*/}
-        {/*  />*/}
-        {/*</Flex>*/}
-
         <Flex
           flexDirection="column"
           justifyContent="flex-start"
           alignItems="center"
-          maxWidth="700px"
+          maxWidth="800px"
           w="100%"
         >
           <Heading
@@ -187,12 +117,11 @@ const Index = () => {
             activitiesByYear={{
               '2022': [
                 {
-                  title: 'Joined Gelato Network',
+                  title: 'Freelancing for Newwit',
                   description:
-                    "With a leap of faith, I jumped into a seed stage startup to flex my engineering muscle; bringing a tool to build automation into dapps to the table. Here I got to build the company's vision of it's product..",
+                    'I jumped into smart contracts development which was my short-term desire and developed governance and unitiy tokens and built bridged connecting EVM chains',
                   tags: {
-                    warehouse_tab:
-                      'https://www.youtube.com/channel/UCBk9gXYKOoLHTQxpcnZkBwQ',
+                    warehouse_tab: 'https://twitter.com/NewwitApp',
                   },
                 },
               ],
@@ -200,19 +129,10 @@ const Index = () => {
                 {
                   title: 'Joined Onessus',
                   description:
-                    'In the end of 2021, I jumped into a dApp Development Studio; brought full-stack engineering to the table. Here I got to transfer novel concept to reality.',
+                    'In the end of 2021, I jumped into a NFT platform Development Studio; brought full-stack engineering to the table. Here I got to transfer novel concept to reality.',
                   tags: {
                     warehouse_tab:
                       'https://www.youtube.com/channel/UCyZaZqRgYFdrgVFoB-qT-ag',
-                  },
-                },
-                {
-                  title: 'Joined Wallfair.io',
-                  description:
-                    'In Sep 2021, Took my second frontend engineering to a decentralized social entertainment industry: Here I got to build the frontend pages of social events.',
-                  tags: {
-                    warehouse_tab:
-                      'https://www.youtube.com/channel/UCqBlRN4MA8N2-SNvM5V52Eg',
                   },
                 },
                 {
@@ -227,29 +147,29 @@ const Index = () => {
               ],
               '2020': [
                 {
-                  title: 'Joined Snikpic',
-                  description: 'My career landed on more variety fields',
+                  title: 'Joined Maryoku',
+                  description:
+                    'I have experience large-scale and ambious product development',
+                  tags: {
+                    warehouse_tab: 'https://www.linkedin.com/company/262days/',
+                  },
                 },
               ],
               '2019': [
                 {
-                  title: 'Joined Demoreel.com',
+                  title: 'Joined Common-Services',
                   description:
-                    'I started freelancing and experienced many sources and libraries.',
+                    'Bring the product in the Shopify App marketplace',
+                  tags: {
+                    warehouse_tab: 'https://apps.shopify.com/amazon-3',
+                  },
                 },
               ],
               '2016': [
                 {
-                  title: 'Switch to Computer Engineering Major',
+                  title: 'Joined Style Inc',
                   description:
-                    "I've tried mechanical, eletrical and chemical engineering and at this point nothing really stood out. I went back to software engineering (building something by myself from scratch was fun).",
-                },
-              ],
-              '2014': [
-                {
-                  title: 'Took my first CS elective',
-                  description:
-                    'I scored a 20 out of 100 in the finals; and thought coding was not for me.',
+                    'Engaged in CV matching, Company internal program development.',
                 },
               ],
             }}

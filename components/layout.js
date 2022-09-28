@@ -83,7 +83,7 @@ const Layout = ({ children }) => {
       <StickyNav
         flexDirection="row"
         alignItems="center"
-        maxWidth="700px"
+        maxWidth="800px"
         width={['calc(100% - 64px)', 'calc(100% - 64px)', '100%']}
         height="64px"
         bg={navBgColor[colorMode]}
@@ -98,13 +98,18 @@ const Layout = ({ children }) => {
             fontSize="5xl"
             cursor="pointer"
           >
-            M
+            Y
           </MainLogo>
         </NextLink>
         <Box ml="auto">
           <NextLink href="/" passHref>
             <Button as="a" variant="ghost" p={[1, 4]}>
               Home
+            </Button>
+          </NextLink>
+          <NextLink href="/product" passHref>
+            <Button as="a" variant="ghost" p={[1, 4]}>
+              Product
             </Button>
           </NextLink>
           <NextLink href="/blog" passHref>
